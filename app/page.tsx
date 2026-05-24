@@ -19,13 +19,16 @@ export default function HomePage() {
 
           bg-center
           bg-no-repeat
-          bg-black
+
+          bg-[length:95%]
+
+          sm:bg-[length:80%]
+
+          lg:bg-[length:60%]
         "
         style={{
           backgroundImage:
             "url('/cryptoxcope_launching_soon.webp')",
-
-          backgroundSize: '60%',
         }}
       />
 
