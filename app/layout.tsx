@@ -1,5 +1,6 @@
 import './globals.css';
 import type { Metadata } from 'next';
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
   title: 'CryptoXcope',
@@ -13,7 +14,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body
+        className="
+          bg-[#050816]
+          text-white
+        "
+      >
+        {children}
+
+        <Analytics />
+      </body>
     </html>
   );
 }
