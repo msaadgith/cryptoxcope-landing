@@ -158,10 +158,9 @@ export default function HomePage() {
             text-white
           "
         >
-          Transforming raw cryptocurrency market data into structured 
-          intelligence for quantitative research, strategy validation and 
+          Transforming raw cryptocurrency market data into structured
+          intelligence for quantitative research, strategy validation and
           analytical workflows.
-
         </p>
 
         {/* STATUS */}
@@ -171,41 +170,73 @@ export default function HomePage() {
             mt-10
 
             inline-flex
-            items-center
-            gap-3
+            flex-col
+            items-start
 
-            rounded-full
+            rounded-[28px]
 
             border
             border-emerald-500/20
 
-            bg-emerald-500/5
+            bg-emerald-500/[0.04]
 
-            px-5
-            py-3
-
-            text-sm
-            sm:text-base
-
-            font-medium
-
-            text-white
+            px-6
+            py-4
 
             backdrop-blur-sm
           "
         >
           <div
             className="
-              h-2
-              w-2
-
-              rounded-full
-
-              bg-emerald-400
+              flex
+              items-center
+              gap-3
             "
-          />
+          >
+            <div
+              className="
+                h-2
+                w-2
 
-          Platform currently under active development
+                rounded-full
+
+                bg-emerald-400
+              "
+            />
+
+            <span
+              className="
+                text-sm
+                sm:text-base
+
+                font-medium
+
+                text-white
+              "
+            >
+              Platform currently under active development
+            </span>
+          </div>
+
+          <span
+            className="
+              mt-2
+
+              pl-6
+
+              text-[11px]
+
+              font-extrabold
+
+              uppercase
+
+              tracking-[0.28em]
+
+              text-emerald-400/75
+            "
+          >
+            Expected launch • Early June 2026
+          </span>
         </div>
       </section>
 
@@ -267,8 +298,7 @@ export default function HomePage() {
         >
           Having a trading idea is challenging.
           <br />
-          Understanding whether it makes sense requires
-          methodology.
+          Understanding whether it makes sense requires methodology.
         </h2>
 
         <p
@@ -288,9 +318,8 @@ export default function HomePage() {
             md:text-xl
           "
         >
-          Decisions based only on intuition may appear
-          convincing, but often hide risks, limitations and
-          missing context.
+          Decisions based only on intuition may appear convincing, but often
+          hide risks, limitations and missing context.
         </p>
 
         <div
@@ -309,29 +338,25 @@ export default function HomePage() {
             {
               number: '01',
               title: 'Manual testing is time consuming',
-              desc:
-                'Validating trading ideas manually consumes time and often produces inconsistent outcomes.',
+              desc: 'Validating trading ideas manually consumes time and often produces inconsistent outcomes.',
             },
 
             {
               number: '02',
               title: 'Data without context',
-              desc:
-                'Looking at isolated numbers makes it difficult to understand actual strategy behavior.',
+              desc: 'Looking at isolated numbers makes it difficult to understand actual strategy behavior.',
             },
 
             {
               number: '03',
               title: 'Complex tools',
-              desc:
-                'Many solutions require programming knowledge, setup effort and steep learning curves.',
+              desc: 'Many solutions require programming knowledge, setup effort and steep learning curves.',
             },
 
             {
               number: '04',
               title: 'Decisions in the dark',
-              desc:
-                'Without structured analysis, ideas may reach the market without enough evidence.',
+              desc: 'Without structured analysis, ideas may reach the market without enough evidence.',
             },
           ].map((item) => (
             <div
@@ -488,9 +513,8 @@ export default function HomePage() {
             md:text-xl
           "
         >
-          We convert raw market data into structured insights.
-          Analyze, validate and decide with clarity and
-          confidence.
+          We convert raw market data into structured insights. Analyze, validate
+          and decide with clarity and confidence.
         </p>
 
         <div
@@ -509,43 +533,37 @@ export default function HomePage() {
             {
               icon: '↗',
               title: 'AI Market Insights',
-              desc:
-                'AI-powered analysis that uncovers trends, regimes and key drivers behind market behavior.',
+              desc: 'AI-powered analysis that uncovers trends, regimes and key drivers behind market behavior.',
             },
 
             {
               icon: '◎',
               title: 'Strategy Backtesting',
-              desc:
-                'Test strategies with precision, realistic conditions and advanced performance metrics.',
+              desc: 'Test strategies with precision, realistic conditions and advanced performance metrics.',
             },
 
             {
               icon: '◫',
               title: 'Multi-Source Data',
-              desc:
-                'Access cleaned, normalized and enriched datasets designed for quantitative workflows.',
+              desc: 'Access cleaned, normalized and enriched datasets designed for quantitative workflows.',
             },
 
             {
               icon: '◌',
               title: 'Pattern Detection',
-              desc:
-                'Identify high-probability patterns, contextual signals and structures.',
+              desc: 'Identify high-probability patterns, contextual signals and structures.',
             },
 
             {
               icon: '◔',
               title: 'Machine Learning',
-              desc:
-                'Leverage ML workflows to uncover hidden relationships and research signals.',
+              desc: 'Leverage ML workflows to uncover hidden relationships and research signals.',
             },
 
             {
               icon: '◉',
               title: 'Research Analytics',
-              desc:
-                'Explore, compare and validate ideas with structured analysis.',
+              desc: 'Explore, compare and validate ideas with structured analysis.',
             },
           ].map((item) => (
             <div
@@ -656,7 +674,7 @@ export default function HomePage() {
               backdrop-blur-sm
             "
           >
-            PLATFORM PREVIEW • UNDER ACTIVE DEVELOPMENT
+            PLATFORM PREVIEW • UNDER ACTIVE DEVELOPMENT • LAUNCHING SOON
           </div>
         </div>
       </section>
