@@ -640,11 +640,11 @@ export default function HomePage() {
           ))}
         </div>
 
-        {/* FOOTER STATUS */}
+        {/* CONTACT STATUS */}
 
         <div
           className="
-            mt-16
+            mt-20
 
             flex
             justify-center
@@ -652,29 +652,61 @@ export default function HomePage() {
         >
           <div
             className="
-              rounded-full
+              inline-flex
+              flex-col
+              items-center
+
+              rounded-[28px]
 
               border
-              border-[#00d084]/20
+              border-emerald-500/20
 
-              bg-[#00d084]/5
+              bg-emerald-500/[0.04]
 
-              px-7
-              py-3
-
-              text-[11px]
-              sm:text-sm
-
-              font-semibold
-
-              tracking-[0.35em]
-
-              text-white
+              px-6
+              py-4
 
               backdrop-blur-sm
             "
           >
-            PLATFORM PREVIEW • UNDER ACTIVE DEVELOPMENT • LAUNCHING SOON
+            <div
+              className="
+                flex
+                items-center
+                gap-3
+              "
+            >
+              <span
+                className="
+                  text-sm
+                  sm:text-base
+
+                  font-medium
+
+                  text-emerald-400/75
+                "
+              >
+                Contact us for details at
+              </span>
+            </div>
+
+            <span
+              className="
+                mt-2
+
+                pl-6
+
+                text-[15px]
+
+                font-extrabold
+
+                tracking-[0.28em]
+
+                text-white
+              "
+            >
+              support@cryptoxcope.com
+            </span>
           </div>
         </div>
       </section>
